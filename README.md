@@ -11,9 +11,9 @@ Tugas ini dibangun untuk mendeteksi anomali pada data Pengadaan Barang/Jasa (PBJ
 
 ## ⚙️ Konfigurasi & Bobot
 
-> - `Nama Paket = 0.50` → identitas utama paket, paling dominan
-> - `Uraian Pekerjaan = 0.35` → detail teknis, membedakan paket yg namanya mirip tapi isinya beda
-> - `Metode Pengadaan = 0.15` → konteks prosedural, penting tapi bukan penentu utama
+> - `Nama Paket` → identitas utama paket, paling dominan
+> - `Uraian Pekerjaan` → detail teknis, membedakan paket yg namanya mirip tapi isinya beda
+> - `Metode Pengadaan` → konteks prosedural, penting tapi bukan penentu utama
 
 | Kolom | Bobot | Alasan |
 |---|---|---|
