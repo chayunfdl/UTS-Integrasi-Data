@@ -1,6 +1,11 @@
 # **UTS INTEGRASI DATA**
 ## Data Matching
 
+**Disusun Oleh**
+| Nama | Chayun Fadila |
+|------|---------------|
+| **NRP** | **602624211** |
+
 Tugas ini dibangun untuk mendeteksi anomali pada data Pengadaan Barang/Jasa (PBJ) menggunakan pendekatan klasifikasi berbobot. Dimulai dari pre-processing dan pelabelan berbasis kemiripan nama paket, dilanjutkan klasifikasi dengan Weighted Scoring dan XGBoost, hingga visualisasi anomali anggaran dan metode pengadaan.
 
 ## ⚙️ Konfigurasi & Bobot
@@ -14,9 +19,3 @@ Tugas ini dibangun untuk mendeteksi anomali pada data Pengadaan Barang/Jasa (PBJ
 | **Nama Paket** | **50%** | Identitas utama paket pengadaan. Jika nama mirip → kemungkinan besar paket serupa |
 | **Uraian Pekerjaan** | **35%** | Detail teknis yang membedakan paket bermakna sama vs berbeda konteks |
 | **Metode Pengadaan** | **15%** | Konteks prosedural. Dua paket bisa mirip walau metode berbeda, tapi tetap relevan |
-
-
-**Disusun Oleh**
-| Nama | Chayun Fadila |
-|------|---------------|
-| **NRP** | **602624211** |
